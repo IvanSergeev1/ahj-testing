@@ -1,0 +1,65 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.image-card {
+  height: 30px;
+  opacity: 0.5;
+}
+
+img {
+  height: 100%;
+}
+
+.input-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  box-sizing: border-box;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #c0bdbd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.valid {
+  background-image: url(../img/valid.png);
+}
+
+.invalid {
+  background-image: url(../img/invalid.png);
+}
+
+.valid, .invalid {
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+
+button {
+  width: 120px;
+  background-color: #1f9643;
+  color: #FFFFFF;
+  border: 1px solid #1f9643;
+  border-radius: 5px;
+  font-size: 13px;
+}
