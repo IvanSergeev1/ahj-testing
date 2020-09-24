@@ -1,6 +1,6 @@
-[Ссылка на проект]()
+[Ссылка на проект](https://ivansergeev1.github.io/ahj-testing/)
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/cx0o5fw8yf84w31p?svg=true)](https://ci.appveyor.com/project/IvanSergeev1/ahj-testing)
 
 ### Credit Card Validator
 
